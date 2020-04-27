@@ -8,7 +8,6 @@ import SideMenu from './sideMenu';
 import EmailAuth3118Navigator from '../features/EmailAuth3118/navigator';
 import EmailAuth3057Navigator from '../features/EmailAuth3057/navigator';
 import ProfilesBlueprintNavigator from '../features/ProfilesBlueprint/navigator';
-import EmailAuthNavigator from '../features/EmailAuth/navigator';
 
 /**
  * new navigators can be imported here
@@ -22,7 +21,6 @@ const AppNavigator = {
 EmailAuth3118: { screen: EmailAuth3118Navigator },
 EmailAuth3057: { screen: EmailAuth3057Navigator },
 ProfilesBlueprint: { screen: ProfilesBlueprintNavigator },
-EmailAuth: { screen: EmailAuthNavigator },
 
     /** new navigators can be added here */
 };
