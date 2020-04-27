@@ -9,7 +9,6 @@ import EmailAuth3121Navigator from '../features/EmailAuth3121/navigator';
 import EmailAuth3120Navigator from '../features/EmailAuth3120/navigator';
 import EmailAuth3118Navigator from '../features/EmailAuth3118/navigator';
 import EmailAuth3057Navigator from '../features/EmailAuth3057/navigator';
-import ProfilesBlueprintNavigator from '../features/ProfilesBlueprint/navigator';
 
 /**
  * new navigators can be imported here
@@ -24,7 +23,6 @@ EmailAuth3121: { screen: EmailAuth3121Navigator },
 EmailAuth3120: { screen: EmailAuth3120Navigator },
 EmailAuth3118: { screen: EmailAuth3118Navigator },
 EmailAuth3057: { screen: EmailAuth3057Navigator },
-ProfilesBlueprint: { screen: ProfilesBlueprintNavigator },
 
     /** new navigators can be added here */
 };
